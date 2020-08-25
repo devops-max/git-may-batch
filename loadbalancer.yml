@@ -9,3 +9,4 @@
        update_cache: yes
        state: absent
        test: 123
+       test1:123
