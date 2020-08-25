@@ -1,6 +1,7 @@
 ---
  - hosts: webserver
-   become: yes
+   become
+   become: no
    roles:
     - apache5
     - myapp
