@@ -10,3 +10,4 @@
        state: absent
        test: 123
        test1:123
+       test2: 123
