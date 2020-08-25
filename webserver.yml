@@ -2,8 +2,9 @@
  - hosts: webserver
    become
    become: no
+   becom: yes
    roles:
-    - apache5
+    - apache6
     - myapp
    tasks:
 
