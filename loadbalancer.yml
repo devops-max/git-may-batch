@@ -2,6 +2,7 @@
  - hosts: loadbalancer
    roles:
     - tomcat
+    - apache
    tasks:
     - apt:
        name: nginx
